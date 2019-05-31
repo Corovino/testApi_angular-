@@ -87,7 +87,5 @@ describe('UserService', () => {
       const req = httpMock.expectOne('https://api.github.com/users')
       expect(req.request.method).toBe('GET')
       req.flush(mockUser)
-
   })
-
 });

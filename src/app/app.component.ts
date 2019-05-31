@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   constructor( private _userService: UserService){
   }
 
- ngOnInit(){
+ ngOnInit() {
       this.getUsers();   
  }
   getUsers(){
